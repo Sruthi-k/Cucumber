@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" parallel="tests">
+
+  <test verbose="2" name="TEst1">
+  <parameter name="Browser" value="FF"></parameter>
+    <classes>
+      <class name="com.automation.eCom.scripts.Register"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Default suite -->
